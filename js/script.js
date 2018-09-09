@@ -20,8 +20,7 @@ Button.prototype = {
         // Create new button element and assign to "this" parameter.
         this.element = document.createElement('button');
         
-        // Use innerHTML method and assign to "this" text and item parameter.
-        this.element.innerText = this.text;
+        // Use innerHTML method and assign "this" object to item parameter.
         this.element.innerHTML = this.item; 
         
         // Listen your event when user click element (here is assign to the button element).
